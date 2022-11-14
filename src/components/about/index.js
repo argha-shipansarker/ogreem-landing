@@ -13,11 +13,11 @@ const AboutOgreem = () => {
                 <div className='pl-12 2xl:pl-0'>
                     <p className='text-4.5xl font-semibold'>About Ogreem</p>
                     <p className='text-xl leading-6 font-light text-textMuted mt-8'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sed eget eget dictum netus augue volutpat leo. Amet, aliquet libero orci lobortis duis in facilisis malesuada. Eget natoque phasellus ultricies ipsum id. Malesuada ullamcorper leo, massa morbi est vitae nisl velit id. Quam neque pharetra pellentesque lorem ornare.
+                        Our mission is to provide a sustainable solution for all employees in breaking the cycle of debt caused by overdraft fees, high-interest credit or pay day loans and play a leading role in building financial wellness for lower- and middle-income workers in Asia.
 
                     </p>
                     <p className='text-xl leading-6 font-light text-textMuted mt-6'>
-                        Nulla diam varius faucibus quam sed congue tempus neque. Dictum ac ut feugiat adipiscing amet venenatis. Morbi pulvinar semper vulputate lectus hendrerit scelerisque ut turpis scelerisque. Morbi urna, gravida lectus sit. Faucibus cras sed laoreet eu turpis mauris. Hac tempus integer aliquam in eu ultricies sed sit. Ante urna pellentesque nam sodales pretium. Morbi sed feugiat dui lacus.
+                        More than 80% of all asians are living from paycheck to paycheck. By eliminating the costly ‘waiting for pay’ penalties, we protect employees from having to rely on costly payday loans forcing them into debt traps between paychecks. Managing cashflow is the most pressing everyday issue for low- and middle income workers as they manage to cover basic needs throughout the month. Enabling fair financial services, employees reach financial resilience and wellness with us. Unexpected expenses between paychecks are causing substantial financial stress and vulnerability among employees. We aim to meaningfully combat the systemic burden and increase employees’ health and happiness.
                     </p>
                 </div>
             </div>
