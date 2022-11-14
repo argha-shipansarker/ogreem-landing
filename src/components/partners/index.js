@@ -1,5 +1,5 @@
 import React from 'react'
-import { Pagination } from 'swiper';
+import { Pagination, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -8,10 +8,15 @@ const Partners = () => {
     return (
         <div className='pt-8 pb-4 partner'>
             <Swiper
-                modules={[Pagination]}
+                modules={[Pagination, Autoplay]}
                 spaceBetween={20}
                 slidesPerView={4}
                 pagination={{ clickable: true }}
+                autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: false,
+                }}
+                speed={3000}
                 className="h-40"
             >
 

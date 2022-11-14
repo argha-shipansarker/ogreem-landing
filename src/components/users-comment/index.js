@@ -1,5 +1,5 @@
 import React from 'react'
-import { Pagination } from 'swiper';
+import { Pagination, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -14,10 +14,15 @@ const UsersComment = () => {
             <p className='w-160 mt-2 mx-auto text-xl font-light text-center text-textMuted'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ornare arcu posuere purus diam tellus dui pharetra.</p>
 
             <Swiper
-                modules={[Pagination]}
+                modules={[Pagination, Autoplay]}
                 spaceBetween={40}
                 slidesPerView={3}
                 pagination={{ clickable: true }}
+                autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: false,
+                }}
+                speed={3000}
                 className="mt-10 h-117.5"
             >
 
