@@ -8,6 +8,7 @@ import EmployersBenefit from "./components/employers-benefit";
 import EmployeesBenefit from "./components/employees-benefit";
 import OgreemOverview from "./components/ogreem-overview";
 import Banner from "./components/banner";
+import IntegrationProcess from "./components/integration-process";
 
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
       <EmployeesBenefit/>
       <EmployersBenefit/>
       <AboutOgreem/>
-      <OrganizationThought />
-      <Partners />
-      <UsersComment />
+      <IntegrationProcess/>
+      {/* <OrganizationThought /> */}
+      {/* <Partners /> */}
+      {/* <UsersComment /> */}
       <Footer />
     </div>
   );
