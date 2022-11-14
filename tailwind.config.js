@@ -8,7 +8,9 @@ module.exports = {
       colors: {
         organizationThoughtBG: "#F8F8F8",
         textMuted: "#505050",
-        borderColor: "#D9D9D9"
+        borderColor: "#D9D9D9",
+        primary: "#5063AA",
+        primaryMuted: "#F6F8FE"
       },
       fontSize: {
         "4.5xl": "2.5rem"
