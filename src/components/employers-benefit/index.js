@@ -38,7 +38,7 @@ const employersBenefitData = [
         icon: Handshake
     },
     {
-        bgColor: "#E9AFAF",
+        bgColor: null,
         heading: "Free of Cost",
         description: "No signup fee",
         icon: Nocost
