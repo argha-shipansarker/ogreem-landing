@@ -10,17 +10,27 @@ module.exports = {
         textMuted: "#505050",
         borderColor: "#D9D9D9",
         primary: "#5063AA",
-        primaryMuted: "#F6F8FE"
+        primaryMuted: "#F6F8FE",
+        b1: "#A5BEE2",
+        b2: "#80E4CC",
+        b3: "#E9AFAF",
+        secondary: "#283771"
       },
       fontSize: {
-        "4.5xl": "2.5rem"
+        "4.5xl": "2.5rem",
+        "6.5xl": "4rem"
       },
       spacing: {
+        18: "4.5rem",
         23.5: "5.872rem",
         36.5: "9.125rem",
+        42: "10.5rem",
         53: "13.25rem",
         55: "13.75rem",
+        56: "14rem",
+        63.5: "15.875rem",
         65.5: "16.375rem",
+        67.5: "16.875rem",
         86: "21.5rem",
         89: "22.25rem",
         105: "26.25rem",
@@ -36,6 +46,11 @@ module.exports = {
       },
       borderWidth: {
         1: "1px"
+      },
+      lineHeight: {
+        big: "3.125rem",
+        vvBig: "5rem",
+        vvvBig: "5.625rem"
       }
     },
   },

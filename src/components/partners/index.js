@@ -6,7 +6,7 @@ import 'swiper/css/pagination';
 
 const Partners = () => {
     return (
-        <div className='pt-8 pb-4'>
+        <div className='pt-8 pb-4 partner'>
             <Swiper
                 modules={[Pagination]}
                 spaceBetween={20}
