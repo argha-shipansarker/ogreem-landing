@@ -50,13 +50,13 @@ const EmployeesBenefit = () => {
     return (
         <div className='bg-white py-16 px-9 '>
             <p className='text-4.5xl font-semibold text-center'>What Employees get</p>
-            <p className='w-160 mt-2 mx-auto text-xl font-light text-center text-textMuted'>A simple app to support their financial future</p>
+            <p className='lg:w-160 mt-2 mx-auto text-xl font-light text-center text-textMuted'>A simple app to support their financial future</p>
 
-            <div className='grid grid-cols-3 gap-y-8 mt-16'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-y-8 mt-16'>
 
                 {
                     employeeBenefitData.map((benefit, index) => (
-                        <div className={`flex justify-center ${index == 2 || index == 5 ? "" : "border-r-2"}`} key={index}>
+                        <div className={`flex justify-center ${index == 2 || index == 5 ? "" : "lg:border-r-2"}`} key={index}>
                             <div className='flex flex-col items-center' style={{ width: 270 }}>
                                 <div className={`w-16 h-16 rounded-full flex justify-center items-center`} style={{ backgroundColor: benefit.bgColor }}>
                                     {/* {benefit.icon} */}

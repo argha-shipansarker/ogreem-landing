@@ -52,13 +52,13 @@ const OgreemOverview = () => {
         // </div>
         <div className='bg-primaryMuted py-16 px-9 '>
             <p className='text-4.5xl font-semibold text-center'>Measurable impact on your business</p>
-            <p className='w-185 mt-2 mx-auto text-xl font-light text-center text-textMuted'>Financial stress among employees is costing millions in lost productivity and high turnover. Ogreem gives employees immediate control over their own paycheck which increases productivity and motivation.</p>
+            <p className='lg:w-185 mt-2 mx-auto text-xl font-light text-center text-textMuted'>Financial stress among employees is costing millions in lost productivity and high turnover. Ogreem gives employees immediate control over their own paycheck which increases productivity and motivation.</p>
 
-            <div className='grid grid-cols-3 gap-y-8 mt-16'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-y-8 mt-16'>
 
                 {
                     impactData.map((benefit, index) => (
-                        <div className={`flex justify-center ${index == 2 || index == 5 ? "" : "border-r-2"}`} key={index}>
+                        <div className={`flex justify-center ${index == 2 || index == 5 ? "" : "lg:border-r-2"}`} key={index}>
                             <div className='flex flex-col items-center' style={{ width: 370 }}>
                                 <div className={`w-16 h-16 rounded-full flex justify-center items-center`}>
                                     {/* {benefit.icon} */}

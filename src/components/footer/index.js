@@ -5,25 +5,25 @@ import Apple from "./apple.png"
 const Footer = () => {
   return (
     <div className='pt-8'>
-      <div className='px-9 grid grid-cols-2 mb-8'>
+      <div className='px-9 grid grid-cols-1 lg:grid-cols-2 mb-8'>
 
         <div className=''>
           <p className='text-4.5xl font-semibold'>Download App</p>
           <p className='text-xl leading-6 text-textMuted font-light mt-4'>To download and install the app click on the button. And anjoy your advance salary.</p>
         </div>
 
-        <div>
-          <div className='mt-11 flex justify-end'>
-            <img src={Google} className="mr-11" />
+        {/* <div> */}
+          <div className='mt-11 flex flex-col lg:flex-row lg:justify-end'>
+            <img src={Google} className="mb-4 lg:mb-0 lg:mr-11" />
             <img src={Apple} />
           </div>
-        </div>
+        {/* </div> */}
 
       </div>
 
       <hr />
 
-      <div className='px-9 grid grid-cols-4 mt-16 mb-14'>
+      <div className='px-9 grid grid-cols-1 gap-y-6 lg:grid-cols-4 mt-16 mb-14'>
 
         <div className=''>
           <svg width="203" height="62" viewBox="0 0 203 62" fill="none" xmlns="http://www.w3.org/2000/svg">
