@@ -41,11 +41,11 @@ const Banner = () => {
                 spaceBetween={10}
                 slidesPerView={1}
                 pagination={{ clickable: true }}
-                // autoplay={{
-                //     delay: 3000,
-                //     disableOnInteraction: false,
-                // }}
-                // speed={3000}
+                autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: false,
+                }}
+                speed={3000}
                 className="mt-10 lg:mt-18 h-225 lg:h-auto"
             >
 
