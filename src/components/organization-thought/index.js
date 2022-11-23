@@ -44,7 +44,7 @@ const OrganizationThought = () => {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-path="url(#clip0_734_1135)">
+                  <g clipPath="url(#clip0_734_1135)">
                     <path
                       d="M43.911 10.1589H41.745V33.4053H51.633V20.137C51.633 14.494 48.174 10.1589 43.911 10.1589Z"
                       fill="#0E7C3F"
@@ -167,7 +167,7 @@ const OrganizationThought = () => {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-path="url(#clip0_734_1170)">
+                  <g clipPath="url(#clip0_734_1170)">
                     <path
                       d="M0 16V46.7619H12.2062V28.3095C12.2062 21.5 6.74707 16 0 16Z"
                       fill="#008C44"
@@ -402,7 +402,7 @@ const OrganizationThought = () => {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-path="url(#clip0_734_1135)">
+                  <g clipPath="url(#clip0_734_1135)">
                     <path
                       d="M43.911 10.1589H41.745V33.4053H51.633V20.137C51.633 14.494 48.174 10.1589 43.911 10.1589Z"
                       fill="#0E7C3F"
@@ -525,7 +525,7 @@ const OrganizationThought = () => {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-path="url(#clip0_734_1170)">
+                  <g clipPath="url(#clip0_734_1170)">
                     <path
                       d="M0 16V46.7619H12.2062V28.3095C12.2062 21.5 6.74707 16 0 16Z"
                       fill="#008C44"
