@@ -3,7 +3,7 @@ import partnerCategory from "./assets/partner-data";
 
 const Partners = () => {
     return (
-        <div>
+        <div className="w-full bg-slate-200">
             <div className="min-h-screen mx-auto max-w-[1296px] flex">
                 <div className="my-auto">
                     <h1 className="mb-8 text-xl text-gray-900 md:text-5xl lg:text-6xl text-center">

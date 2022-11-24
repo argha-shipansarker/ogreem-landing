@@ -2,7 +2,7 @@ import React from "react";
 
 const RequestDemo = () => {
     return (
-        <div className="min-h-screen mx-auto max-w-[1296px] flex flex-col md:flex-row">
+        <div className="min-h-[500px] mx-auto max-w-[1296px] flex flex-col md:flex-row">
             <div className="basis-1 md:basis-1/2 my-auto">
                 <img
                     className="h-60 mx-auto"

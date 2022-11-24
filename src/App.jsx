@@ -12,7 +12,7 @@ let router = createBrowserRouter([
     {
         path: "/",
         element: (
-            <div>
+            <div className="flex flex-col">
                 <Navbar />
                 <Banner />
                 <Outlet />

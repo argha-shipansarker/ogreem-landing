@@ -9,8 +9,8 @@ const data = [
 
 const NumericMetrics = () => {
     return (
-        <div className="bg-gray-200">
-            <div className="min-h-screen mx-auto max-w-[1296px] flex flex-col md:flex-row bg-gray-200">
+        <div>
+            <div className="min-h-[500px] mx-auto max-w-[1296px] flex flex-col md:flex-row">
                 {data.map((d, key) => (
                     <div key={key} className="basis-1 sm:basis-1/2 md:basis-1/4 m-auto">
                         <h1 className="text-4xl text-center">{d[0]}</h1>

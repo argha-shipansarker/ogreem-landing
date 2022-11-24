@@ -22,23 +22,23 @@ const employersBenefitData = [
     },
     {
         bgColor: "#A5BEE2",
+        heading: "Realtime analytics",
+        description:
+            "Attract talent & reduce employee turnover via earned salary access",
+        icon: Salary,
+    },
+    {
+        bgColor: "#80E4CC",
         heading: "Productive employee",
         description:
             "Improve employee productivity by eliminating financial stress",
-        icon: Salary,
+        icon: Setup,
     },
     {
         bgColor: null,
         heading: "Loyalty to the Company",
         description: "Employees tend to stay where they are taken care of.",
         icon: Handshake,
-    },
-    {
-        bgColor: "#80E4CC",
-        heading: "Attract Talent",
-        description:
-            "Attract talent & reduce employee turnover via earned salary access",
-        icon: Setup,
     },
     // {
     //     bgColor: "#E9AFAF",
