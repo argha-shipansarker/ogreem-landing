@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const RequestDemo = () => {
     return (
@@ -18,9 +19,11 @@ const RequestDemo = () => {
                     Employers can run their payroll on demand to any bank account in the
                     country to pay their employees timely.
                 </p>
-                <button className="flex-none py-3 px-6 ml-10 border-2 border-secondary rounded-lg text-indigo-800">
-                    Schedule a Call
-                </button>
+                <Link to="schedule-meeting">
+                    <button className="flex-none py-3 px-6 ml-10 border-2 border-secondary rounded-lg text-indigo-800">
+                        Schedule a Call
+                    </button>
+                </Link>
             </div>
         </div>
     );
