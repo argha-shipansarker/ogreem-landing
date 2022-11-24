@@ -4,9 +4,9 @@ import partnerCategory from "./assets/partner-data";
 const Partners = () => {
     return (
         <div className="w-full bg-slate-200">
-            <div className="min-h-screen mx-auto max-w-[1296px] flex">
+            <div className="py-[60px] md:py-[80px] mx-auto max-w-[1296px] flex justify-center">
                 <div className="my-auto">
-                    <h1 className="mb-8 text-xl text-gray-900 md:text-5xl lg:text-6xl text-center">
+                    <h1 className="mb-8 text-xl text-gray-900 md:text-4xl lg:text-5xl text-center py-10">
                         300+ Companies Financially Empowered, Are You?
                     </h1>
                     <div className="grid md:grid-cols-6 gap-4">
