@@ -4,9 +4,9 @@ import Banner from "./components/banner";
 import Footer from "./components/footer";
 import { createBrowserRouter, Outlet, RouterProvider, ScrollRestoration, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
-import About from "./pages/About";
-import EarnedWageAccess from "./pages/EarnedWageAccess";
-import HowToUse from "./pages/HowToUse";
+// import About from "./pages/About";
+// import EarnedWageAccess from "./pages/EarnedWageAccess";
+// import HowToUse from "./pages/HowToUse";
 import ScheduleMeetings from "./pages/Schedule";
 
 const Root = () => {
@@ -31,18 +31,18 @@ let router = createBrowserRouter([
                 index: true,
                 element: <Home />,
             },
-            {
-                path: "about",
-                element: <About />,
-            },
-            {
-                path: "earned-wage-access",
-                element: <EarnedWageAccess />,
-            },
-            {
-                path: "how-to-use",
-                element: <HowToUse />,
-            },
+            // {
+            //     path: "about",
+            //     element: <About />,
+            // },
+            // {
+            //     path: "earned-wage-access",
+            //     element: <EarnedWageAccess />,
+            // },
+            // {
+            //     path: "how-to-use",
+            //     element: <HowToUse />,
+            // },
             {
                 path: "schedule-meeting",
                 element: <ScheduleMeetings />

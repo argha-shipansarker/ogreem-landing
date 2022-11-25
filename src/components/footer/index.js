@@ -1,36 +1,33 @@
 import React from "react";
 import Google from "./google.png";
-import Apple from "./apple.png";
+// import Apple from "./apple.png";
 
 const Footer = () => {
     return (
         <div>
-            <hr />
+            {/* <hr /> */}
 
-            <div className="container mx-auto px-9 grid grid-cols-1 lg:grid-cols-2 my-8">
-                <div className="">
-                    <p className="text-4.5xl font-semibold">Download App</p>
-                    <p className="text-xl leading-6 text-textMuted font-light mt-4">
-                        To download and install the app click on the button. And anjoy your
-                        advance salary.
-                    </p>
-                </div>
-
-                {/* <div> */}
-                <div className="mt-11 flex flex-col md:flex-row lg:justify-end">
-                    <img
-                        src={Google}
-                        className="mb-4 lg:mb-0 lg:mr-11 w-[133px] h-[40px] object-content"
-                        alt="google"
-                    />
-                    <img
-                        src={Apple}
-                        className="mb-4 lg:mb-0 lg:mr-11 w-[133px] h-[40px] object-content"
-                        alt="apple"
-                    />
-                </div>
-                {/* </div> */}
-            </div>
+            {/* <div className="container mx-auto px-9 grid grid-cols-1 lg:grid-cols-2 my-8"> */}
+            {/*     <div className=""> */}
+            {/*         <p className="text-4.5xl font-semibold">Download App</p> */}
+            {/*         <p className="text-xl leading-6 text-textMuted font-light mt-4"> */}
+            {/*             To download and install the app click on the button. And anjoy your */}
+            {/*             advance salary. */}
+            {/*         </p> */}
+            {/*     </div> */}
+            {/*     <div className="mt-11 flex flex-col md:flex-row lg:justify-end"> */}
+            {/*         <img */}
+            {/*             src={Google} */}
+            {/*             className="mb-4 lg:mb-0 lg:mr-11 w-[133px] h-[40px] object-content" */}
+            {/*             alt="google" */}
+            {/*         /> */}
+            {/*         <img */}
+            {/*             src={Apple} */}
+            {/*             className="mb-4 lg:mb-0 lg:mr-11 w-[133px] h-[40px] object-content" */}
+            {/*             alt="apple" */}
+            {/*         /> */}
+            {/*     </div> */}
+            {/* </div> */}
 
             <hr />
 
@@ -232,18 +229,23 @@ const Footer = () => {
 
                 <div className="mt-6">
                     <p className="text-xl leading-6 text-textMuted font-medium mb-8">
-                        Subscribe
+                        Download
                     </p>
 
                     <div className="flex flex-col md:flex-row">
-                        <input
-                            type="text"
-                            className="h-14 focus:outline-0 border-2 border-primary rounded-t-lg md:rounded-tr-none md:rounded-l-lg pl-4"
-                            placeholder="Email"
+                        <img
+                            src={Google}
+                            className="mb-4 lg:mb-0 lg:mr-11 w-[133px] h-[40px] object-content"
+                            alt="google"
                         />
-                        <button className="text-sm text-white text-center md:text-start font-bold h-14 px-3 bg-primary rounded-b-lg md:rounded-bl-none md:rounded-r-lg">
-                            Subscribe
-                        </button>
+                        {/* <input */}
+                        {/*     type="text" */}
+                        {/*     className="h-14 focus:outline-0 border-2 border-primary rounded-t-lg md:rounded-tr-none md:rounded-l-lg pl-4" */}
+                        {/*     placeholder="Email" */}
+                        {/* /> */}
+                        {/* <button className="text-sm text-white text-center md:text-start font-bold h-14 px-3 bg-primary rounded-b-lg md:rounded-bl-none md:rounded-r-lg"> */}
+                        {/*     Subscribe */}
+                        {/* </button> */}
                     </div>
                 </div>
             </div>

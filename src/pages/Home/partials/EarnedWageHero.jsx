@@ -5,8 +5,8 @@ import hero from "./assets/hero.png"
 
 const EarnedWageHero = () => {
     return (
-        <div className="w-full bg-slate-200">
-            <div className="container flex flex-col md:flex-row justify-center items-center min-h-screen mx-auto">
+        <div className="w-full">
+            <div className="container flex flex-col md:flex-row justify-center items-center p-20 mx-auto">
                 <div className="basis-1/2 p-4">
                     <h1 className="font-medium text-5xl m-3 text-indigo-900">Earned Wage Access</h1>
                     <p className="font-light text-xl m-3">EWA changes the way you receive and spend your salary. Your salary is your right, <b>and we let you access it with Ogreem</b></p>
