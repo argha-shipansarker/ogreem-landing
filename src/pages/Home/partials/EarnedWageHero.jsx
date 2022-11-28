@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 // import vid from "./assets/hero.webm"
 import hero from "./assets/hero.png"
 
@@ -11,10 +11,10 @@ const EarnedWageHero = () => {
                     <h1 className="font-medium text-5xl m-3 text-indigo-900">Earned Wage Access</h1>
                     <p className="font-light text-xl m-3">EWA changes the way you receive and spend your salary. Your salary is your right, <b>and we let you access it with Ogreem</b></p>
                     <div className="mx-3 my-6 flex flex-col md:flex-row justify-start items-center">
-                        <Link to="earned-wage-access">
-                            <button className="flex-none py-3 px-6 border-2 border-secondary rounded-lg text-indigo-800">Learn More</button>
-                        </Link>
-                        <p className="mt-4 md:mt-0 md:ml-40"><em className="text-indigo-800 font-bold mr-4">{'-'}</em>100% Shariah Compliant<em className="text-indigo-800 font-bold ml-4">{'>'}</em></p>
+                        <p className="mt-4 md:mt-0">100% Shariah Compliant<em className="text-indigo-800 font-bold ml-4">{'>'}</em></p>
+                        {/* <Link to="earned-wage-access"> */}
+                        {/*     <button className="flex-none py-3 px-6 border-2 border-secondary rounded-lg text-indigo-800">Learn More</button> */}
+                        {/* </Link> */}
                     </div>
                 </div>
                 <div className="basis-1/2">
