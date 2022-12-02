@@ -9,7 +9,7 @@ const AboutOgreem = () => {
             </div>
             <div className="lg:col-span-8">
                 <div className="lg:pl-12 2xl:pl-0">
-                    <p className="text-4.5xl font-semibold">About Ogreem</p>
+                    <p className="text-5xl font-semibold">About Ogreem</p>
                     <p className="text-xl leading-6 font-light text-textMuted mt-8">
                         Ogreem is the country’s leading Earned Wages Access provider, being a fully local startup offering financial wellness platform. We at Ogreem, strongly believe that financial freedom and wellness are critical to leading healthy lives.
                     </p>

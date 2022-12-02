@@ -12,7 +12,7 @@ const RequestDemo = () => {
                 />
             </div>
             <div className="basis-1 md:basis-1/2 my-auto">
-                <h1 className="font-medium text-5xl my-3 ml-10 text-indigo-900">
+                <h1 className="font-semibold text-5xl my-3 ml-10 text-indigo-900">
                     Request a demo
                 </h1>
                 <p className="font-light text-xl my-3 ml-10">
