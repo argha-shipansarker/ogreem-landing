@@ -1,11 +1,13 @@
-import Salary from "./salary.png";
-import Setup from "./setup.png";
-import Speed from "./speed.png";
-import Hidden from "./hidden.png";
-import Debt from "./nodebt.png";
-import Loved from "./loved.png";
-import Handshake from "./handshake.png";
-import Nocost from "./nocost.png";
+import Salary from "./salary.svg";
+import Speed from "./speed.svg";
+import Hidden from "./hidden.svg";
+import Debt from "./nodebt.svg";
+import Loved from "./loved.svg";
+import Nocost from "./nocost.svg";
+import Easy from "./easy.svg";
+import Realtime from "./realtime.svg";
+import Productive from "./productive.svg";
+import Loyality from "./loyality.svg";
 
 const employersBenefitData = [
     {
@@ -18,27 +20,27 @@ const employersBenefitData = [
         bgColor: "#80E4CC",
         heading: "Easy integration",
         description: "Three simple steps to set up Ogreem account",
-        icon: Setup,
+        icon: Easy,
     },
     {
         bgColor: "#A5BEE2",
         heading: "Realtime analytics",
         description:
             "Attract talent & reduce employee turnover via earned salary access",
-        icon: Salary,
+        icon: Realtime,
     },
     {
         bgColor: "#80E4CC",
         heading: "Productive employee",
         description:
             "Improve employee productivity by eliminating financial stress",
-        icon: Setup,
+        icon: Productive,
     },
     {
         bgColor: null,
         heading: "Loyalty to the Company",
         description: "Employees tend to stay where they are taken care of.",
-        icon: Handshake,
+        icon: Loyality,
     },
     // {
     //     bgColor: "#E9AFAF",

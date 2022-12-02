@@ -18,18 +18,18 @@ const Navbar = () => {
     // );
     // const dropdownRef = useRef(null);
     return (
-        <nav className="bg-white px-2 sm:px-4 py-2.5">
+        <nav className="bg-white px-2 sm:px-6 py-4 fixed w-full z-20 top-0 left-0 shadow-lg">
             <div className="flex flex-wrap items-center justify-between mx-auto">
                 <Link to="/">
                     <img src={NavLogo} className="h-6 mr-3 sm:h-9" alt="ogreem Logo" />
                 </Link>
                 <button
-                    className="inline-flex items-center bg-secondary p-4 ml-3 text-md text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-200"
+                    className="inline-flex items-center bg-secondary p-2 ml-3 text-sm text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-200"
                 >
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#ffffff"><path d="M0 0h24v24H0z" fill="none" /><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" /></svg>
 
                     <span class="inline-flex justify-center hidden md:block pl-2">
-                        Download
+                        Download App
                     </span>
                 </button>
                 {/* <button */}
