@@ -5,7 +5,7 @@ import step3 from "./assets/3-ready.jpeg";
 import step4 from "./assets/4-earned.jpeg";
 import step5 from "./assets/5-withdraw.jpeg";
 import step6 from "./assets/6-status.jpeg";
-import { Pagination, Autoplay, Keyboard } from "swiper";
+import { Autoplay, Keyboard } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const integrationData = [
@@ -49,10 +49,9 @@ const IntegrationProcess = () => {
             </p> */}
 
             <Swiper
-                modules={[Pagination, Autoplay, Keyboard]}
+                modules={[Autoplay, Keyboard]}
                 spaceBetween={10}
                 slidesPerView={1}
-                pagination={{ clickable: true }}
                 autoplay={{
                     delay: 1000,
                     disableOnInteraction: false,
@@ -66,25 +65,23 @@ const IntegrationProcess = () => {
                     },
                 }}
                 speed={1000}
-                className="mt-10 lg:mt-18 h-225 lg:h-auto"
+                className="mt-10 lg:mt-18 h-full"
             >
                 {integrationData.map((benefit, index) => (
                     <SwiperSlide key={index}>
                         <div
-                            className={`flex justify-center lg:border-r-2`}
+                            className={`grid justify-items-center content-between ${integrationData.length - 1 === index ? "" : "lg:border-r-2"}`}
                         >
-                            <div className="flex flex-col items-center" style={{ width: 270 }}>
-                                <img
-                                    className="max-h-100 mx-auto border border-4 mt-4"
-                                    src={benefit.image}
-                                    alt={benefit.heading}
-                                />
+                            <img
+                                className="h-[560px] mx-auto border border-4 mt-4"
+                                src={benefit.image}
+                                alt={benefit.heading}
+                            />
 
-                                <p className="mt-4 text-2xl leading-8 font-medium ">
-                                    {benefit.heading}
-                                </p>
+                            <p className="mt-4 text-2xl font-medium whitespace-nowrap">
+                                {benefit.heading}
+                            </p>
 
-                            </div>
                         </div>
                     </SwiperSlide>
                 ))}
