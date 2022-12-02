@@ -1,17 +1,11 @@
 import React from "react";
-import Home1 from "./Home1.png";
-import Home2 from "./Home2.png";
+import about from "./about.svg";
 
 const AboutOgreem = () => {
     return (
         <div className="px-9 py-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-slate-200">
             <div className="lg:col-span-4 relative">
-                <img src={Home2} className="mt-24 lg:mt-12 z-50 relative" alt="home" />
-                <img
-                    src={Home1}
-                    className="absolute left-0 lg:left-39.25 top-0"
-                    alt="home"
-                />
+                <img src={about} alt="about" className="mt-24 lg:mt-12" />
             </div>
             <div className="lg:col-span-8">
                 <div className="lg:pl-12 2xl:pl-0">

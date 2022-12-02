@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import demo from './assets/demo.svg'
 const RequestDemo = () => {
     return (
         <div className="min-h-[500px] mx-auto max-w-[1296px] flex flex-col md:flex-row">
             <div className="basis-1 md:basis-1/2 my-auto">
                 <img
-                    className="h-60 mx-auto"
-                    src="https://img.icons8.com/external-nawicon-flat-nawicon/256/000000/external-computer-online-learning-nawicon-flat-nawicon.png"
+                    className="max-h-100 mx-auto"
+                    src={demo}
                     alt="demo"
                 />
             </div>
