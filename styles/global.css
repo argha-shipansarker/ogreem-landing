@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Lexend', sans-serif;
+}
+
+.user-comment .swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.partner .swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.organization-thought .swiper {
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+}
+
+.organization-thought .swiper-slide {
+    width: 968px !important;
+}
+
+.user-comment .swiper {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
