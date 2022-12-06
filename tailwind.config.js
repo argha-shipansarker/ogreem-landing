@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
@@ -14,11 +16,11 @@ module.exports = {
         b1: "#A5BEE2",
         b2: "#80E4CC",
         b3: "#E9AFAF",
-        secondary: "#283771"
+        secondary: "#283771",
       },
       fontSize: {
         "4.5xl": "2.5rem",
-        "6.5xl": "4rem"
+        "6.5xl": "4rem",
       },
       spacing: {
         18: "4.5rem",
@@ -45,17 +47,17 @@ module.exports = {
         242: "60.5rem",
       },
       borderRadius: {
-        "4.5xl": "2.625rem"
+        "4.5xl": "2.625rem",
       },
       borderWidth: {
-        1: "1px"
+        1: "1px",
       },
       lineHeight: {
         big: "3.125rem",
         vvBig: "5rem",
-        vvvBig: "5.625rem"
-      }
+        vvvBig: "5.625rem",
+      },
     },
   },
   plugins: [],
-}
+};
