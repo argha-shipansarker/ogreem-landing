@@ -234,7 +234,7 @@ const Footer = () => {
                     </p>
 
                     <div className="flex flex-col md:flex-row">
-                        <Link href="https://play.google.com/store/apps/details?id=com.ogreem.app">
+                        <Link href="https://play.google.com/store/apps/details?id=com.ogreem.app" target="_blank">
                             <img
                                 src="/images/google.png"
                                 className="mb-4 lg:mb-0 lg:mr-11 w-[133px] h-[40px] object-content"

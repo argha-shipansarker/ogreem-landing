@@ -57,6 +57,7 @@ const Navbar = ()=>{
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                     href: "https://play.google.com/store/apps/details?id=com.ogreem.app",
+                    target: "_blank",
                     children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("button", {
                         className: "inline-flex items-center bg-secondary p-2 ml-3 text-sm text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-200",
                         children: [
@@ -325,6 +326,7 @@ const Footer = ()=>{
                                 className: "flex flex-col md:flex-row",
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                     href: "https://play.google.com/store/apps/details?id=com.ogreem.app",
+                                    target: "_blank",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
                                         src: "/images/google.png",
                                         className: "mb-4 lg:mb-0 lg:mr-11 w-[133px] h-[40px] object-content",

@@ -23,10 +23,7 @@ const EarnedWageHero = () => {
                     </div>
                 </div>
                 <div className="basis-1/2">
-                    <div>
-
-                    </div>
-                    <img src="/images/home/hero.png" alt="hero" style={{ height: "600px", width: "100%", objectFit: "cover" }} />
+                    <img className="mx-auto" src="/images/home/hero.png" alt="hero" style={{ height: "700px", objectFit: "contain" }} />
                     {/* <video width="320" height="240" controls={false} autoPlay loop muted className="w-full"> */}
                     {/*     <source src={vid} type="video/webm" /> */}
                     {/*     Your browser does not support the video tag. */}
