@@ -77,7 +77,7 @@ const Navbar = ()=>{
                                 ]
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                class: "justify-center hidden md:block pl-2",
+                                className: "justify-center hidden md:block pl-2",
                                 children: "Download App"
                             })
                         ]
@@ -167,27 +167,6 @@ const Footer = ()=>{
                                 children: "Contact"
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "flex",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                                        width: "26",
-                                        height: "26",
-                                        viewBox: "0 0 26 26",
-                                        fill: "none",
-                                        xmlns: "http://www.w3.org/2000/svg",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                            d: "M8.55081 1.80005H5.00005C3.23274 1.80005 1.80005 3.23274 1.80005 5.00005V8.20005C1.80005 17.0366 8.96349 24.2 17.8 24.2H21C22.7674 24.2 24.2 22.7674 24.2 21V18.7889C24.2 18.1829 23.8576 17.6288 23.3156 17.3578L19.4501 15.4251C18.5792 14.9896 17.5246 15.4265 17.2167 16.3502L16.7402 17.7795C16.4316 18.7053 15.4819 19.2564 14.525 19.065C10.6949 18.299 7.70108 15.3052 6.93506 11.4751C6.74367 10.5182 7.29481 9.56846 8.22062 9.25986L9.99443 8.66859C10.7876 8.4042 11.2435 7.57373 11.0407 6.76264L10.103 3.01199C9.92497 2.29972 9.28499 1.80005 8.55081 1.80005Z",
-                                            stroke: "#505050",
-                                            strokeWidth: "2"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        className: "font-light ml-4",
-                                        children: "346 254 233 - 6"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 className: "flex mt-5",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx("svg", {
@@ -204,7 +183,7 @@ const Footer = ()=>{
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                         className: "font-light ml-4",
-                                        children: "mangcoding123@gmail.com"
+                                        children: "info@ogreem.com"
                                     })
                                 ]
                             })

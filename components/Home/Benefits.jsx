@@ -6,7 +6,11 @@ const Benefits = () => {
         <div className="w-full bg-slate-200">
             <div className="my-20">
                 <h1 className="mb-10 text-5xl font-semibold text-gray-900 text-center">
-                    Why Ogreem?
+                    Why <img
+                        src="/images/logo.svg"
+                        className="inline h-9 sm:h-12 ml-4"
+                        alt="ogreem Logo"
+                    />?
                 </h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 mt-10">
                     {benefitsData.map((bd) => (
