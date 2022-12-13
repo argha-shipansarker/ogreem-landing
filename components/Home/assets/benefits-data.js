@@ -8,7 +8,7 @@ const employersBenefitData = [
     {
         bgColor: "#80E4CC",
         heading: "Hassle Free",
-        description: "Easy integration with your HRs with no cost.",
+        description: "Easy integration with your HRMs at no cost.",
         icon: "/images/benefits/easy.svg",
     },
     // {
@@ -27,8 +27,8 @@ const employersBenefitData = [
     },
     {
         bgColor: null,
-        heading: "Reduce Attrition",
-        description: "Employees tend to stay where they are taken care of.",
+        heading: "Reduced Attrition",
+        description: "Employees tend to stay longer where they are taken care of.",
         icon: "/images/benefits/loyality.svg",
     },
     // {
