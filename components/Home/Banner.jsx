@@ -21,7 +21,7 @@ const Banner = () => {
                             Get Your Earned Salary Whenever, Wherever.
                         </p>
                         <p className="text-xl leading-6 font-light text-textMuted mt-4">
-                            <span className="font-bold">Ogreem</span> is the maiden Bangladeshi Fintech Solution that financially empowers your business employees, providing earned wage access.
+                            <span className="font-bold">Ogreem</span> is the maiden Bangladeshi Fintech Solution that financially empowers your <s>business</s> employees, providing earned wage access.
                         </p>
                     </div>
 

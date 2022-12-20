@@ -48,7 +48,7 @@ const employeeBenefitData = [
     {
         bgColor: null,
         heading: "No Hidden Charges",
-        description: "Play a flat service fee when withdrawn.",
+        description: "Play a flat service fee when withdrawn only and Quick Withdraw.",
         icon: "/images/benefits/hidden.svg",
     },
     {
