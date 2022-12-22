@@ -48,7 +48,7 @@ const employeeBenefitData = [
     {
         bgColor: null,
         heading: "No Hidden Charges",
-        description: "Play a flat service fee when withdrawn only and Quick Withdraw.",
+        description: "Pay a flat service fee when withdraw.",
         icon: "/images/benefits/hidden.svg",
     },
     {
@@ -66,7 +66,7 @@ const employeeBenefitData = [
     },
     {
         bgColor: "#E9AFAF",
-        heading: "Quick Withdrawal",
+        heading: "Quick Withdraw",
         description: "Withdraw earned salary via MFS or Bank in hours",
         icon: "/images/benefits/speed.svg",
     },
