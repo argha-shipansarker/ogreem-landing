@@ -200,33 +200,37 @@ const Footer = ()=>{
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 className: "flex",
                                 children: [
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
-                                        className: "mr-2",
-                                        width: "35",
-                                        height: "35",
-                                        viewBox: "0 0 35 35",
-                                        fill: "none",
-                                        xmlns: "http://www.w3.org/2000/svg",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("g", {
-                                                clipPath: "url(#clip0_734_1374)",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                                    d: "M13.9908 27.162V17.7708H11.4363V14.3896H13.9908V11.5015C13.9908 9.23206 15.4998 7.14795 18.9769 7.14795C20.3847 7.14795 21.4257 7.27914 21.4257 7.27914L21.3437 10.4367C21.3437 10.4367 20.282 10.4266 19.1235 10.4266C17.8696 10.4266 17.6687 10.9883 17.6687 11.9206V14.3896H21.4433L21.2791 17.7708H17.6687V27.162H13.9908Z",
-                                                    fill: "#505050"
-                                                })
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("defs", {
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("clipPath", {
-                                                    id: "clip0_734_1374",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("rect", {
-                                                        width: "10.007",
-                                                        height: "20.0141",
-                                                        fill: "white",
-                                                        transform: "translate(11.4363 7.14795)"
+                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                        href: "https://www.facebook.com/people/Ogreem/100088339675635/?mibextid=LQQJ4d",
+                                        target: "_blank",
+                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+                                            className: "mr-2",
+                                            width: "35",
+                                            height: "35",
+                                            viewBox: "0 0 35 35",
+                                            fill: "none",
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            children: [
+                                                /*#__PURE__*/ jsx_runtime_.jsx("g", {
+                                                    clipPath: "url(#clip0_734_1374)",
+                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                        d: "M13.9908 27.162V17.7708H11.4363V14.3896H13.9908V11.5015C13.9908 9.23206 15.4998 7.14795 18.9769 7.14795C20.3847 7.14795 21.4257 7.27914 21.4257 7.27914L21.3437 10.4367C21.3437 10.4367 20.282 10.4266 19.1235 10.4266C17.8696 10.4266 17.6687 10.9883 17.6687 11.9206V14.3896H21.4433L21.2791 17.7708H17.6687V27.162H13.9908Z",
+                                                        fill: "#505050"
+                                                    })
+                                                }),
+                                                /*#__PURE__*/ jsx_runtime_.jsx("defs", {
+                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("clipPath", {
+                                                        id: "clip0_734_1374",
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("rect", {
+                                                            width: "10.007",
+                                                            height: "20.0141",
+                                                            fill: "white",
+                                                            transform: "translate(11.4363 7.14795)"
+                                                        })
                                                     })
                                                 })
-                                            })
-                                        ]
+                                            ]
+                                        })
                                     }),
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
                                         className: "mr-2",
@@ -256,33 +260,37 @@ const Footer = ()=>{
                                             })
                                         ]
                                     }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
-                                        className: "mr-2",
-                                        width: "36",
-                                        height: "35",
-                                        viewBox: "0 0 36 35",
-                                        fill: "none",
-                                        xmlns: "http://www.w3.org/2000/svg",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("g", {
-                                                clipPath: "url(#clip0_734_1366)",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                                    d: "M11.8484 27.1619V12.6939H6.94448V27.1619H11.8484ZM9.39705 10.7174C11.1071 10.7174 12.1716 9.60641 12.1716 8.21806C12.1397 6.7984 11.1072 5.71826 9.4295 5.71826C7.75208 5.71826 6.65515 6.79842 6.65515 8.21806C6.65515 9.60647 7.71933 10.7174 9.36504 10.7174H9.3969H9.39705ZM14.5626 27.1619H19.4665V19.0823C19.4665 18.6499 19.4984 18.2179 19.6279 17.9088C19.9824 17.0449 20.7893 16.1501 22.1439 16.1501C23.9185 16.1501 24.6284 17.4768 24.6284 19.4218V27.1618H29.5319V18.866C29.5319 14.422 27.1126 12.3543 23.8862 12.3543C21.2407 12.3543 20.0792 13.8043 19.4339 14.792H19.4666V12.6936H14.5628C14.6271 14.0512 14.5628 27.1616 14.5628 27.1616L14.5626 27.1619Z",
-                                                    fill: "#505050"
-                                                })
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("defs", {
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("clipPath", {
-                                                    id: "clip0_734_1366",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("rect", {
-                                                        width: "22.8732",
-                                                        height: "21.4437",
-                                                        fill: "white",
-                                                        transform: "translate(6.65515 5.71826)"
+                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                        href: "https://www.linkedin.com/company/ogreem/about/",
+                                        target: "_blank",
+                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+                                            className: "mr-2",
+                                            width: "36",
+                                            height: "35",
+                                            viewBox: "0 0 36 35",
+                                            fill: "none",
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            children: [
+                                                /*#__PURE__*/ jsx_runtime_.jsx("g", {
+                                                    clipPath: "url(#clip0_734_1366)",
+                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                        d: "M11.8484 27.1619V12.6939H6.94448V27.1619H11.8484ZM9.39705 10.7174C11.1071 10.7174 12.1716 9.60641 12.1716 8.21806C12.1397 6.7984 11.1072 5.71826 9.4295 5.71826C7.75208 5.71826 6.65515 6.79842 6.65515 8.21806C6.65515 9.60647 7.71933 10.7174 9.36504 10.7174H9.3969H9.39705ZM14.5626 27.1619H19.4665V19.0823C19.4665 18.6499 19.4984 18.2179 19.6279 17.9088C19.9824 17.0449 20.7893 16.1501 22.1439 16.1501C23.9185 16.1501 24.6284 17.4768 24.6284 19.4218V27.1618H29.5319V18.866C29.5319 14.422 27.1126 12.3543 23.8862 12.3543C21.2407 12.3543 20.0792 13.8043 19.4339 14.792H19.4666V12.6936H14.5628C14.6271 14.0512 14.5628 27.1616 14.5628 27.1616L14.5626 27.1619Z",
+                                                        fill: "#505050"
+                                                    })
+                                                }),
+                                                /*#__PURE__*/ jsx_runtime_.jsx("defs", {
+                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("clipPath", {
+                                                        id: "clip0_734_1366",
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("rect", {
+                                                            width: "22.8732",
+                                                            height: "21.4437",
+                                                            fill: "white",
+                                                            transform: "translate(6.65515 5.71826)"
+                                                        })
                                                     })
                                                 })
-                                            })
-                                        ]
+                                            ]
+                                        })
                                     }),
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
                                         width: "35",
@@ -361,7 +369,6 @@ function MyApp({ Component , pageProps  }) {
             /*#__PURE__*/ jsx_runtime_.jsx(Component, {
                 ...pageProps
             }),
-            ")",
             /*#__PURE__*/ jsx_runtime_.jsx(layouts_Footer, {})
         ]
     });

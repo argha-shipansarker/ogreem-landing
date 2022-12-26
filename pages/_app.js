@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
     <div className="flex flex-col">
       <Navbar />
       {/* {location.pathname.includes("schedule-meeting") ? "" : <Banner />} */}
-      <Component {...pageProps} />)
+      <Component {...pageProps} />
       <Footer />
     </div>
   );
