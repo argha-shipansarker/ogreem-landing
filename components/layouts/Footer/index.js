@@ -152,7 +152,7 @@ const Footer = () => {
                         </a>
 
 
-                        <svg
+                        {/* <svg
                             className="mr-2"
                             width="36"
                             height="35"
@@ -176,7 +176,7 @@ const Footer = () => {
                                     />
                                 </clipPath>
                             </defs>
-                        </svg>
+                        </svg> */}
 
                         <a href="https://www.linkedin.com/company/ogreem/about/" target="_blank">
                             <svg
@@ -206,7 +206,7 @@ const Footer = () => {
                             </svg>
                         </a>
 
-                        <svg
+                        {/* <svg
                             width="35"
                             height="35"
                             viewBox="0 0 35 35"
@@ -229,7 +229,7 @@ const Footer = () => {
                                     />
                                 </clipPath>
                             </defs>
-                        </svg>
+                        </svg> */}
                     </div>
                 </div>
 
