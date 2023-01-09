@@ -66,7 +66,7 @@ const employeeBenefitData = [
     },
     {
         bgColor: "#E9AFAF",
-        heading: "Quick Withdraw",
+        heading: "Quick Withdrawl",
         description: "Withdraw earned salary via MFS or Bank in hours",
         icon: "/images/benefits/speed.svg",
     },
