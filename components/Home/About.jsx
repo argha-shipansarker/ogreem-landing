@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutOgreem = () => {
     return (
-        <div className="px-4 lg:px-0 py-16 bg-slate-200">
+        <div className="px-4 lg:px-0 py-16 bg-primaryMuted">
             <div className="max-w-maximum mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                 <div className="lg:col-span-4 relative">
                     <img

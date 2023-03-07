@@ -3,7 +3,7 @@ import benefitsData from "./assets/benefits-data";
 
 const Benefits = () => {
     return (
-        <div className="w-full bg-slate-200">
+        <div className="w-full bg-primaryMuted">
             <div className="max-w-maximum my-20 mx-auto">
                 <h1 className="mb-10 text-5xl font-semibold text-gray-900 text-center">
                     Why <img
