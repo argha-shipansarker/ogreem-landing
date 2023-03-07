@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 
 const Banner = () => {
     return (
-        <div className="pt-7 px-4 lg:px-9 pb-8 lg:pb-16">
+        <div className="max-w-maximum mx-auto pt-7 px-4 lg:px-0 pb-8 lg:pb-16">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center mt-[56px] mx-auto">
                 <div className="lg:col-span-6 2xl:col-span-7">
                     <div>

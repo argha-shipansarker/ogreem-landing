@@ -45,7 +45,7 @@ const Navbar = ()=>{
     return /*#__PURE__*/ jsx_runtime_.jsx("nav", {
         className: "bg-white px-2 sm:px-6 py-4 fixed w-full z-20 top-0 left-0 shadow-lg",
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "flex flex-wrap items-center justify-between mx-auto",
+            className: "max-w-maximum flex flex-wrap items-center justify-between mx-auto",
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                     href: "/",
@@ -103,7 +103,7 @@ const Footer = ()=>{
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("hr", {}),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "container px-9 grid grid-cols-1 gap-y-6 md:grid-cols-2 lg:grid-cols-4 py-14 mx-auto",
+                className: "max-w-maximum px-4 lg:px-9 grid grid-cols-1 gap-y-6 md:grid-cols-2 lg:grid-cols-4 py-14 mx-auto",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: "",

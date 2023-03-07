@@ -32,7 +32,7 @@ const Footer = () => {
 
             <hr />
 
-            <div className="container px-9 grid grid-cols-1 gap-y-6 md:grid-cols-2 lg:grid-cols-4 py-14 mx-auto">
+            <div className="max-w-maximum px-4 lg:px-9 grid grid-cols-1 gap-y-6 md:grid-cols-2 lg:grid-cols-4 py-14 mx-auto">
                 <div className="">
                     <svg
                         width="203"

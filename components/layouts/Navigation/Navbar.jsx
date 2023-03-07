@@ -19,7 +19,7 @@ const Navbar = () => {
     // const dropdownRef = useRef(null);
     return (
         <nav className="bg-white px-2 sm:px-6 py-4 fixed w-full z-20 top-0 left-0 shadow-lg">
-            <div className="flex flex-wrap items-center justify-between mx-auto">
+            <div className="max-w-maximum flex flex-wrap items-center justify-between mx-auto">
                 <Link href="/">
                     <img
                         src="/images/logo.svg"

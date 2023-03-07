@@ -57,6 +57,9 @@ module.exports = {
         vvBig: "5rem",
         vvvBig: "5.625rem",
       },
+      maxWidth: {
+        maximum: "85.375rem"
+      }
     },
   },
   plugins: [],
